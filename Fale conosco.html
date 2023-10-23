@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Academia java UFN</title>
+        <link rel="icon" href="images/ufn.png" type="image/x-icon">
+        <!--Icone de identificação da página,com o logo ufn -->
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="image/x-icon">
+
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <!-- Icone UFN com direcionamento para os cursos oferidos -->
+            <a id="UFN" href="https://www.ufn.edu.br/site/ead/cursos" target="_blank" rel="noopener noreferrer">
+                <img src="images/ufn.png" alt="Universidade Franciscana">
+            </a>
+
+            <h1 id="titulo"></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Página Inicial</a></li>
+                <li><a href="Proximas viagens.html" target="_blank">Proximas viagens</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="content">
+            <h1>Preencha o formulário abaixo para entrar em contato conosco:</h1>
+            
+        </div>
+        <form action="processar_formulario.php" method="post"></form>
+
+
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+       
+
+        <footer>
+            <section id="meus-creditos">
+
+
+                <p>Desenvolvido por: José Alexandre &reg;</p>
+
+            </section>
+
+            <section id="redes">
+
+                <!-- Div´s icones redes -->
+                <div id="redes">
+
+                    <!-- GitHub link perfil -->
+                    <a id="icone-github" href="https://github.com/josejardim" target="blank" rel="noopener noreferrer">
+                        <img class="rede" src="images/Icone GitHub.svg" alt="GitHub">
+                    </a>
+
+                    <!-- Icone do Linkedin com link para o meu perfil -->
+                    <a id="linkedin" href="https://www.linkedin.com/in/jos%C3%A9-alexandre-98291238/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="rede" src="images/Icone Linkedin.svg" alt="LinkedIn">
+                    </a>
+
+                </div>
+            </section>
+
+
+        </footer>
+
+    </body>
+
+</html>

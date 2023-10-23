@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Academia java UFN</title>
+
+        <link rel="icon" href="images/ufn.png" type="image/x-icon">
+        <!--Icone de identificação da página,com o logo ufn -->
+
+        <title>Formulário HTML</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title>player</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>genero player</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="image/x-icon">
+
+        <script src="js/script.js" defer></script>
+        <!--Link arquivo javascript,utlizando "defer" para carregar o html antes dos arquivos.js -->
+
+    </head>
+
+
+
+
+
+    <header>
+
+        <!-- Icone UFN com direcionamento para os cursos oferidos -->
+        <a id="UFN" href="https://www.ufn.edu.br/site/ead/cursos" target="_blank" rel="noopener noreferrer">
+            <img src="images/ufn.png" alt="Universidade Franciscana">
+        </a>
+
+        <h1 id="titulo"></h1>
+
+    </header>
+
+
+    <body>
+
+        <section>          
+
+            
+             
+            
+            <form id="genero-player">
+                <h2>Selecione seu genero favorito e aperte o play:</h2>
+                <label>
+                    <input type="radio" name="genero" value="rock1" onchange="updateAudioSource(this.value)">
+                    Ibiza
+                </label>
+
+                <label>
+                    <input type="radio" name="genero" value="rockon" onchange="updateAudioSource(this.value)">
+                    Rock on
+                </label>
+
+                <label>
+                    <input type="radio" name="genero" value="Antenna 1" onchange="updateAudioSource(this.value)">
+                    Antenna 1
+                </label>
+                
+            </form>     
+            
+            <audio id="player" controls>
+                <!-- URL da estação de rádio - inicialmente vazia -->
+                <source src="" type="audio/mpeg">
+               
+            </audio>   
+
+
+        </section>
+
+
+
+        <header>
+            <h1>Minhas Viagens</h1>
+        </header>
+        <nav>
+            <ul>
+
+                <li><a href="Fale conosco.html" target="_blank">Fale conosco</a></li>
+
+                <li><a href="Proximas viagens.html" target="_blank">Proximas viagens</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            
+            <p>Bem-vindo ao meu site de viagens. Aqui vou compartilhar minhas experiências e aventuras pelo Brasil.</p>
+            <div id="imagem-inicial"></div>
+            <img src="images/ju x ja.jpg" alt="Foto da Página Inicial">
+
+            <div id="Alemanha"></div>
+            <img src="images/Alemanha.jpg" alt="Foto da Página Inicial">
+            </div>
+
+            <div id="descanso"></div>
+            <img src="images/descanso.jpg" alt="Foto da Página Inicial">
+            </div>
+
+            <div id="piloto"></div>
+            <img src="images/piloto.jpg" alt="Foto da Página Inicial">
+            </div>
+
+            <div id="nascente"></div>
+            <img src="images/nascente.jpg" alt="Foto da Página Inicial">
+            </div>
+
+            <div id="lagoa"></div>
+            <img src="images/lagoa.jpg" alt="Foto da Página Inicial">
+            </div>
+
+        </main>
+
+
+       
+
+
+        <footer>
+            <section id="meus-creditos">
+
+                <p>Desenvolvido por: José Alexandre &reg;</p>
+
+            </section>
+
+            <section id="redes">
+
+                <!-- Div´s icones redes -->
+                <div id="redes">
+
+                    <!-- GitHub link perfil -->
+                    <a id="icone-github" href="https://github.com/josejardim" target="blank" rel="noopener noreferrer">
+                        <img class="rede" src="images/Icone GitHub.svg" alt="GitHub">
+                    </a>
+
+                    <!-- Icone do Linkedin com link para o meu perfil -->
+                    <a id="linkedin" href="https://www.linkedin.com/in/jos%C3%A9-alexandre-98291238/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="rede" src="images/Icone Linkedin.svg" alt="LinkedIn">
+                    </a>
+
+                </div>
+
+            </section>
+
+        </footer>
+
+    </body>
+
+</html>
